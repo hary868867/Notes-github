@@ -1,0 +1,30 @@
+supercharging git hub workflow 
+
+OVERVIEW 
+
+In this course, you'll be introduced to the GitHub flow, a simplified but powerful workflow that is used by industry-leading companies both large and small all around the world. This course then takes this workflow and supercharges it to include things like continuous integration, continuous deployment, branch protections, code review, merge strategies, and customizing a workflow that works best for you      
+ 
+MODERN SOFTWARE DEVELOPMENT PIPELINE
+
+a. intro
+   this course is all about workflows, and more specifically, how to take a popular and common workflow on GitHub and how to supercharge it to make it work better for you and your projects, your team at work or school, or really anything that's being hosted on GitHub  
+   
+b. different work flows with git 
+   basically git flow is the workflow presently so many organizations are using
+   git flow consists of two branches master & develop including some supporting branches such as hot fixes, release, feature branch...  master branch, is deployable to production, and develop branch contains the development changes for the next release
+   
+c. basic github workflow 
+   this topic is the thoery of commit, merge  & creating a pull request, i think you know little bit of it, so no worry 
+   
+d. securing workflow
+   why we need security ? what if we have security concerns on who can push changes to a branch, or merge a branch into master? What about automated testing and code checks that need to happen when commits occur on a branch? We talked about testing on deploy, but is this something that can be done with each commit before we merge or deploy? What about code reviews or pull request approvals? Where would those requirements and checks take place within this flow? How about other GitHub features such as issues? How would they fit into this picture? Or do they? Now, this is a lot of information and things to think about, but when it comes to designing your workflow, these are some important topics to consider. Let's start with some of these security concerns when it comes to working on these branches.   
+   expalined some security settings in github for securing branches, go to branch settings in you github and check, you will get them simply by reading the terms
+   
+e. 
+
+SUPER CHARGING GITHUB WORKFLOW 
+
+a. enabling continuous integration
+   we have opened steve & a-aron's wired coffee repositories and forked them in to our own account.. check in github.
+   now open github market place which is at top menu bar.. click on circleCI, install free version.. give details and set up project.. remember we need to have config file in repository to set up continuos integration.. we have it in the wired coffee folder which we forked 
+   

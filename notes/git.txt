@@ -1,0 +1,15 @@
+git
+
+git init
+git add filename
+git commit -m "..."
+git checkout -b newbranch
+git checkout main                      //returns to main branch 
+git branch                            //shows which we are working on
+git switch branchname                //same as checkout, but checkout is used for other purposes too, while switch is only for swithcing to branch 
+git branch -m currentname newname   // changes the branch name 
+git branch -d branchname            // deletes branch
+git branch -D branchname            // force delete branch 
+git diff branch1 branch2            // compares differences b/w branches
+git merge --abort                   //aborts merge returns to previos stage
+git remote -v                       // shows the url of which branch you cloned 

@@ -1,0 +1,20 @@
+Git Hub Actions
+
+OVERVIEW 
+
+automation is key for streamlining your work processes and GitHub Actions is the best way to supercharge your GitHub workflow. This enables you to create custom software development lifecycle workflows directly in your GitHub repository. GitHub Actions is fully integrated into GitHub. It's built in from the merge box to the checks tab, from the UI to the API. It works the way that GitHub works       
+
+CORE CONCEPTS
+
+a. Super charging GitHub flow 
+   we have a seperate course for this, check that... github flow is just the workflow of github
+
+b. simple hello world workflow 
+   created a new repository on github with name github-actions-demo 
+   now, clicked on the actions tab... actions-> simple-workflow.. it gives sample yaml file -> start commit.. give commit message -> thats it, a simple workflow yml file is created 
+   now, click on the actions tab, we can see logs of the workflows. now, click on the workflow to see what more happened when ran the workflow yml file. In summary we will know if any artifacts or annotations created when we ran the workflow file, but we dont have any artifacts or annotations, so its showing empty
+   now, click on the build tab to see step by step action happened when we ran the work flow file
+   thats the simple outline of the github actions usage, there's more in to it, lets go
+
+c. dissecting the workflow 
+      

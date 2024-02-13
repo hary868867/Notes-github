@@ -1,0 +1,43 @@
+git commands of craig golightly
+
+  git clone https://github.com/hary867/kubernetes-ops.git
+  git clone https://github.com/hary867/eks-cg.git
+  
+  cp -r /c/Users/HP/Documents/Learn/kubernetes-ops/.github/ /c/Users/HP/Documents/Learn/eks-cg/
+  cp -r /c/Users/HP/Documents/Learn/kubernetes-ops/.gitignore /c/Users/HP/Documents/Learn/eks-cg/
+  
+  cd .github/workflows/
+  cat terraform-pipeline-staging.yaml
+  
+  
+  git checkout -b actions
+  git add .gitignore
+  git add .github/*
+  git commit -m "actions and ignore"
+  git push origin actions
+  git switch main
+  
+  git pull
+  git branch -d actions
+  
+  
+  
+  cd kubernetes-ops/
+  cd eks-cg/
+  cp -r /c/Users/HP/Documents/Learn/kubernetes-ops/terraform-environments/ /c/Users/HP/Documents/Learn/eks-cg/
+  cd terraform-environments/aws/staging/10-vpc/
+  vim main.tf    ( edited this file to keep our values )
+  vim outputs.tf  ( nothing changed ) 
+  
+  git checkout -b vpc
+  
+  git add .
+  git status
+  git reset
+  git status
+  
+  git add staging/10-vpc/*.tf
+  git status
+  git commit -m "building vpc"
+  git push vpc
+  git push origin vpc
